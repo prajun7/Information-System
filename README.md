@@ -1,4 +1,4 @@
-# Store and Delete Information
+# Information System
 
 This program is designed to get data from the users and store those data in a table.
 Also, there is an option to delete unnecessary data from the table with just a click. 

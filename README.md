@@ -10,5 +10,3 @@ In each table row, there is a Delete button.
 Upon clicking that button, the user will be removed from the table
 
 **I am using vanilla JavaScript and HTML to create the form.**
-
-**I am planning to add CSS in the future**

@@ -1,0 +1,82 @@
+/*Parent of form and information*/
+.screen{
+    display: flex;
+    align-items: flex-start;   /* This doesn't allow the flex-item to grow*/
+    /* If this is removed than the school Form will grow*/
+
+}
+
+/* Formatting the student information table */
+th,td{
+    border:2px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+/*Delete button*/
+.deleteBtn{
+    padding:10px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+
+/*Formatting the student form where we write information*/
+input[type=text],input[type = number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  /*Formatting the student form */
+.form{
+    flex-grow: 0;
+    margin-left: 22%;
+    margin-top: 100px;
+    border: 4px solid black;
+    display:inline-block;   /* Makes the border small, i.e. doesn't extend till the end */
+    padding: 5px 20px 20px 20px;
+    background-color:rgb(231, 224, 224);
+} 
+
+/* "Student Form" heading */
+#heading{
+    text-align: center;
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+}
+
+/* "Student Information" heading */
+#info{
+    margin-left: 25%;
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+}
+
+/* Submit button */
+#submit{
+    margin-top: 5%;
+    margin-left: 40%;
+    padding:10px;
+    border: 2px solid black;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    border-radius: 20px;
+}
+
+.information{
+    margin-left: 10%;
+    margin-top: 100px;
+    border: 4px solid black;
+    display:inline-block;   /* Makes the border small, i.e. doesn't extend till the end */
+    padding: 5px 20px 20px 20px;
+    background-color:rgb(231, 224, 224);
+}
+
+
+
+
+
